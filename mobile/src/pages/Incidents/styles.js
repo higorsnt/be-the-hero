@@ -48,11 +48,28 @@ export default StyleSheet.create({
     marginBottom: 16,
   },
 
-  incidentProperty: {},
+  incidentProperty: {
+    fontSize: 14,
+    color: '#41414d',
+    fontWeight: 'bold',
+  },
 
-  incidentValue: {},
+  incidentValue: {
+    marginTop: 8,
+    fontSize: 20,
+    marginBottom: 24,
+    color: '#737380',
+  },
 
-  detailsButton: {},
+  detailsButton: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
 
-  detailsButtonText: {},
+  detailsButtonText: {
+    color: '#e02041',
+    fontSize: 15,
+    fontWeight: 'bold',
+  },
 })
